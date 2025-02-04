@@ -13,6 +13,10 @@
          <lastmod>2025-02-04</lastmod>
     </url>
     <url>
+         <loc>https://github.com/frankois944/spm4Kmp/distribution/</loc>
+         <lastmod>2025-02-04</lastmod>
+    </url>
+    <url>
          <loc>https://github.com/frankois944/spm4Kmp/exportingDependencies/</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
@@ -26,6 +30,14 @@
     </url>
     <url>
          <loc>https://github.com/frankois944/spm4Kmp/setup/</loc>
+         <lastmod>2025-02-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/frankois944/spm4Kmp/references/swiftDependency/</loc>
+         <lastmod>2025-02-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/frankois944/spm4Kmp/references/swiftPackageConfig/</loc>
          <lastmod>2025-02-04</lastmod>
     </url>
 </urlset>

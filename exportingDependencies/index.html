@@ -315,7 +315,7 @@
         
   
   <span class="md-ellipsis">
-    Setup
+    Getting started
     
   </span>
   
@@ -475,6 +475,114 @@
   
   
     <li class="md-nav__item">
+      <a href="../distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distribute Binary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            References
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/swiftDependency/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SwiftDependency
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/swiftPackageConfig/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SwiftPackageConfig
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../license/" class="md-nav__link">
         
   
@@ -553,11 +661,15 @@
 
 
 <h1 id="export-dependencies-to-kotlin">Export Dependencies to Kotlin</h1>
-<p>On completion with <a href="../bridgeWithDependencies/">using external dependencies</a>, it's possible to export them to Kotlin, if there are compatible.</p>
+<p>On completion with <a href="../bridgeWithDependencies/">using external dependencies</a>, it's possible to export them to Kotlin, if they are compatible.</p>
+<p>Exported dependency can be used inside the bridge and the Kotlin app.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your package doesn't work with the plugin, please create an <a href="https://github.com/frankois944/spm4Kmp/issues">issue</a>.</p>
+</div>
 <h2 id="gradle">Gradle</h2>
 <p>The following configuration export to Kotlin the package <a href="https://github.com/firebase/firebase-ios-sdk">FirebaseAnalytics</a> which is a ObjC library.</p>
 <p>You can try to export a pure Swift library, but only basic ObjC will be available.</p>
-<p>Note: If your package doesn't work with the plugin, please create an <a href="https://github.com/frankois944/spm4Kmp/issues">issue</a>.</p>
 <div class="language-kotlin highlight"><span class="filename">build.gradle.kts</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">swiftPackageConfig</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="s">&quot;[cinteropName]&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="n">dependency</span><span class="p">(</span>
@@ -650,7 +762,7 @@ Add the folder to your Xcode project as a Local package, that's all.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.select", "content.tabs.link", "content.code.annotate", "navigation.top"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.select", "content.tabs.link", "content.code.annotate", "navigation.top", "navigation.instant"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.f13b1293.min.js"></script>
