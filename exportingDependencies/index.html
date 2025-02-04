@@ -555,7 +555,8 @@
 <h1 id="export-dependencies-to-kotlin">Export Dependencies to Kotlin</h1>
 <p>On completion with <a href="../bridgeWithDependencies/">using external dependencies</a>, it's possible to export them to Kotlin, if there are compatible.</p>
 <h2 id="gradle">Gradle</h2>
-<p>The following configuration export to Kotlin the package <a href="https://github.com/firebase/firebase-ios-sdk">FirebaseAnalytics</a> which is a ObjC library, that can be used directly in Kotlin.
+<p>The following configuration export to Kotlin the package <a href="https://github.com/firebase/firebase-ios-sdk">FirebaseAnalytics</a> which is a ObjC library.</p>
+<p>You can try to export a pure Swift library, but only basic ObjC will be available.</p>
 <div class="language-kotlin highlight"><span class="filename">build.gradle.kts</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">swiftPackageConfig</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="n">create</span><span class="p">(</span><span class="s">&quot;[cinteropName]&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="n">dependency</span><span class="p">(</span>
@@ -570,7 +571,7 @@
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="p">)</span>
 </span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="p">}</span>
 </span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="p">}</span>
-</span></code></pre></div></p>
+</span></code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>A local swift package is being generated during the build and this message diplayed
@@ -578,7 +579,7 @@
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>/path/to/the/local/package
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Please add it to your xcode project as a local package dependency.
 </span></code></pre></div>
-Add the folder to your Apple project as a Local package, that's all.</p>
+Add the folder to your Xcode project as a Local package, that's all.</p>
 <p>Note : When updating your configuration, reset the package cache to apply the modification.</p>
 </div>
 <h2 id="example">Example</h2>
@@ -589,7 +590,7 @@ Add the folder to your Apple project as a Local package, that's all.</p>
 </span></code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The bridge can remains empty as we don't need it, we only want to use the exported product</p>
+<p>The bridge can remain empty as we don't need it; we only want to use the exported product.</p>
 </div>
 
 
