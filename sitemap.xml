@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/bridge/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/bridge/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/bridgeWithDependencies/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/bridgeWithDependencies/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/distribution/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/distribution/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/exportingDependencies/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/exportingDependencies/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/license/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/license/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/multiTarget/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/multiTarget/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/setup/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/setup/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/references/productName/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/references/productName/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/references/productPackageConfig/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/references/productPackageConfig/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/references/swiftDependency/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/references/swiftDependency/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/frankois944/spm4Kmp/references/swiftPackageConfig/</loc>
+         <loc>https://frankois944.github.io/spm4Kmp/references/swiftPackageConfig/</loc>
          <lastmod>2025-02-05</lastmod>
     </url>
 </urlset>
